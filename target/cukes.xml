@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="38.397">
+<testcase classname="F01_Register | users could register with new accounts" name="Guest user could register with valid data successfully" time="27.06">
+<system-out><![CDATA[Given user go to register page..............................................passed
+When user choose gender type................................................passed
+And User enters first name "automation" and last name "tester"..............passed
+And User enters date of birth...............................................passed
+And User Enter email "test7@example.com"....................................passed
+And user fills password field "P@assword" and confirm the password..........passed
+And User clicks on register button..........................................passed
+Then Success message is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Login | Users could use login functionality to use their account" name="User login with valid username and Password" time="10.744">
+<system-out><![CDATA[Given User is in login page.................................................passed
+And User enters valid email "test6@example.com" and valid password "P@assword".passed
+And User clicks on login button.............................................passed
+Then User logs in...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
